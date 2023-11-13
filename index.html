@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday Ayush Hari!</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      margin: 50px;
+      overflow: hidden;
+      background: linear-gradient(to right, #ff8c00, #ff0080); /* Initial gradient */
+      animation: gradientChange 10s infinite alternate; /* Gradient animation */
+      transition: background 1s ease-in-out; /* Smooth transition effect */
+    }
+
+    #birthday-message {
+      font-size: 24px;
+      color: #fff;
+      margin-bottom: 20px;
+    }
+
+    #birthday-button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    #birthday-button:hover {
+      background-color: #45a049;
+    }
+
+    /* Define the gradient animation */
+    @keyframes gradientChange {
+      0% {
+        background: linear-gradient(to right, #ff8c00, #ff0080);
+      }
+      100% {
+        background: linear-gradient(to right, #ff0080, #ff8c00);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="birthday-message">
+    <p>Happy Birthday Ayush Hari!</p>
+    <p>Wishing you a fantastic day filled with joy and celebration.</p>
+  </div>
+
+  <button id="birthday-button" onclick="displayBirthdayWish()">Click Me!</button>
+
+  <script>
+    // JavaScript function to be called when the button is clicked
+    function displayBirthdayWish() {
+      alert("Happy Birthday Ayush Hair! 🎉🎂");
+    }
+  </script>
+</body>
+</html>
